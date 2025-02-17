@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+
+.container {
+    margin: 20px;
+}
+
+.slot-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+    margin: 20px auto;
+    max-width: 400px;
+}
+
+.slot-item {
+    background-color: #222;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
